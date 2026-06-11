@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Feedback Form</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>👁️‍🗨️Tell Us Your Thoughts👁️‍🗨️</h1>
+    </header>
+
+    <form action="/submit" method="POST">
+
+        <!--Full Name Input-->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <!--Email Input-->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <!--Password Input for Acct Verification-->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <!--Feedback Category-->
+        <label for="location">Store Location:</label>
+        <select id="lcoation" name="location">
+            <option value="Zumbehl">Zumbehl</option>
+            <option value="Muegge">Muegge</option>
+            <option value="First Capitol">First Capitol</option>
+        </select>
+    
+    </form>
+
+</body>
+</html>
 
